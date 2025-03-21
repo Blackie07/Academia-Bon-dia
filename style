@@ -1,0 +1,363 @@
+* {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 10px;
+    background-color: #fffdfd;
+    max-width: 1200px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.header body{
+    margin-top: 20px;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #eff9e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+h1, h2,  text h1 h2 {
+    text-align: center ;
+    text-decoration:rgb(0, 0, 0);
+    color: #090909;
+    margin-bottom: 20px;
+    background-color: #7077dfe0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#img_header img {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 20px;
+    
+}
+
+/* Estilo del menú de navegación */
+nav {
+    width: 94%;
+    height: 60px;
+    position: fixed;
+    text-align: justify;
+    top: 0;
+    z-index: 1000;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 0;
+    background-color: #cdcdcdf6;
+}
+
+.nav ul {
+    background-color: rgb(200, 200, 200);
+    text-decoration-color: #030303;
+    display: flex;
+    height: 0px;
+    top: 0%;
+    justify-content: center;
+    list-style: none;
+    font-size: medium;
+    margin-bottom: 40px;
+    color: #090909;
+    text-align: center;
+
+    
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #161616;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;border-bottom: #090909;
+    transition: background-color 0.3s;
+    background-color: #cdcdcde7;
+    margin-top: 0px;
+    height: 10px;
+    
+    
+}
+
+.nav-item:hover {
+    background-color: #718d92;
+    border-radius: 5px;
+    
+}
+
+
+/* Sección de bienvenida */
+#welcom {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+/* Estilo de las tablas */
+table {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    background-color: #b3b3b3;
+}
+
+th, td {
+    border: 1px solid #030303;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4252ffe0;
+    color: rgb(252, 252, 252);
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #fcf0d8;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*/* Sección de géneros */
+.genre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre las casillas */
+    padding: 20px;
+}
+
+#Generos {
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fffdfd;
+    padding: 45px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#Generos img {
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}
+
+#Generos h1 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#Generos p {
+    font-size: 14px;
+    color: #0f0f0f;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.button {
+    background-color: #7077dfe0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #274c77;
+}
+
+
+/* Estilo del formulario */
+form {
+    background-color: rgb(206, 206, 206);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+input, select, button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b3b5c9e0;
+    color: rgb(11, 11, 11);
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #7784edd8;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration-color: black;
+    background-color: #4f5048;
+    font-weight: 200
+    
+}
+#social-icons{
+    background-color: #274c77;
+}
+
+
+/* Exponentes */
+#Exponentes{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+#Exponentes img{
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    
+}
+#Exponentes button{
+    width: 180px;
+    height: auto;
+}
+#h1e{
+    color: #0d0d0d;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-decoration: underline ;
+}
+hr{
+    color: #030303;
+    width: 97%;
+    padding-right: 20px;
+    font-size: medium;
+    text-align: center;
+}
+#Siguenos section{
+    background-color: #ffffff;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+}
+
+
+.genre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.instrument {
+    background-color: #fff;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+.instrument h2 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: #444;
+}
+.instrument p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.instrument img {
+    width: 150px;
+    height: 200;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: auto;
+}
+
+.genero {
+    background-color: #fff;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns:  repeat(2, 1fr);
+    padding: 15px;
+    margin: 10px;
+    max-height: max-content;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.genero h2 {
+    color: #444;
+}
+.genero p {
+    font-size: 14px;
+    color: #090909;
+}
+.genero img {
+    width: 100%;
+    height: 800px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
