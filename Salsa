@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Dia Academia</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header >
+<div id="img_header">
+ <img src="JPG/Logoacademibondia1.jpg" alt="Logo academia">
+</div>
+
+    <div id="navegador">
+        <nav class="nav">
+            <ul>
+                <li><a class="nav-item" href="academiabondia.html" target="_self">Menu</a></li>
+                <li><a class="nav-item" href="inscripcion.html" target="_blank">Inscripciones</a></li>
+                <li><a class="nav-item" href="precios.html" target="_blank">Precios</a></li>
+                <li><a class="nav-item" href="exponentes.html" target="_self">Exponentes</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+</header>
+<div>
+<hr>
+<h1 id="h1e">Salsa</h1>
+<hr>
+<h2>La Energía de la Vida</h2>
+<div id="foto">
+    <img  src="JPG/imagsalsa.jpg" alt="Grupo de salsa">
+</div>
+<p>
+    La salsa es pura energía en movimiento. Nació de la fusión de culturas, y en su ritmo, se refleja la pasión, 
+    el deseo y la alegría de vivir. Cada golpe de timbal, cada baqueteo de conga, cada vibrato del bajo eléctrico, 
+    es un llamado a moverse, a celebrar el momento. Este género lleva en su corazón la historia de las calles de Cuba, Puerto Rico y Nueva York, pero hoy, 
+    su contagioso ritmo ha conquistado el mundo entero. 
+    La salsa no es solo música; es una invitación a disfrutar del presente,
+    a compartir la vida en cada paso de baile. Cuando la salsa comienza a sonar, el cuerpo no puede resistirlo. Es una fiesta que no acaba, 
+    un abrazo vibrante entre el sonido y el movimiento. Es la danza del alma,
+    el sonido de la celebración, la música que invita a gozar, a vivir intensamente y, sobre todo, a disfrutar juntos.
+</p>
+<a href="https://www.youtube.com/watch?v=QuOpoudh0HY" target="_blank">
+    <button type="button">Reproducir</button>
+</a>
+</div>
+<div id="salsa" class="genre">
+         <hr>
+         <h1> Instrumentos claves para la Salsa</h1>
+         <hr>
+    <div class="instrument">
+        <img src="JPG/piano.jpg" alt="Piano en Salsa">
+        <h2>Piano</h2>
+        <p>El piano en salsa es esencial para las armonías y el ritmo rápido, siendo clave para la improvisación.</p>
+    </div>
+    <div class="instrument">
+        <img src="JPG/timbales.jpg" alt="Timbales">
+        <h2>Timbales</h2>
+        <p>Los timbales son tambores de metal, conocidos por su sonido brillante y rápido, fundamentales en la salsa.</p>
+    </div>
+    <div class="instrument">
+        <img src="JPG/congas.jpg" alt="Congas">
+        <h2>Conga</h2>
+        <p>Instrumentos de percusión que marcan el ritmo con su toque profundo y rápido.</p>
+    </div>
+    <div class="instrument">
+        <img src="JPG/contrabajo.jpg" alt="Bajo eléctrico">
+        <h2>Bajo eléctrico</h2>
+        <p>El bajo eléctrico establece la base armónica y rítmica de la salsa, con líneas de bajo prominentes.</p>
+    </div>
+    <div class="instrument">
+        <img src="JPG/cuatro.jpg" alt="Cuatro">
+        <h2>Cuatro</h2>
+        <p>Una guitarra pequeña de cuatro cuerdas que proporciona armonía y ritmo en la salsa.</p>
+    </div>
+</div>
+
+
+<div>  
+    <section class="Siguenos">
+
+    <h1>Siguenos</h1>
+    <p>Linea Telefonica: 1100-11111
+    <br>Direccion:  Calle 15 sur #45-32
+    <br>correo Electronico:  bondiacademy@school.co</p>
+        <icon><i class="fa-solid fa-users"></i></icon>
+        <icon><i class="fa-brands fa-facebook"></i></icon>
+        <icon><i class="fa-brands fa-instagram"></i></icon>
+    </section> 
+</div>
+
+<footer>
+<p>
+    &copy; 2025 Bon Dia Academia. Todos los derechos reservados.<br>Alexander Fonnegra Osorio
+</p> 
+</footer>
+
+</body>
+</html>
