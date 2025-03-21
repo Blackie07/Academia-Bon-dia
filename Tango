@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Dia Academia</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<header>
+<div id="img_header">
+    <img src="JPG/Logoacademibondia1.jpg" alt="Logo academia">
+</div>
+
+  <div id="navegador">
+    <nav class="nav">
+        <ul>
+            <li><a class="nav-item" href="academiabondia.html">Menú</a></li>
+            <li><a class="nav-item" href="inscripcion.html" target="_blank">Inscripciones</a></li>
+            <li><a class="nav-item" href="precios.html" target="_blank">Precios</a></li>
+            <li><a class="nav-item" href="exponentes.html">Exponentes</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<body>
+<div>
+<hr>
+<h1>Tango</h1>
+<hr>
+<h2>La Elegancia de la Melancolía</h2>
+<div >
+    <img  src="JPG/imagtango.jpg" alt="Grupo de salsa"id="foto">
+</div>
+<p>
+    El tango es un suspiro en la noche, un juego de miradas,
+    un sentimiento intenso que crece en el silencio de la ciudad. 
+    Con su bandoneón, su violín, y sus movimientos sutiles, 
+    el tango captura la esencia de la pasión y la tristeza entrelazadas.
+    Es un baile que cuenta historias de amor no correspondido,
+    de encuentros fugaces, de emociones profundas que no se pueden decir
+    con palabras. Cada paso es una declaración de deseo,
+    cada giro es una muestra de la vulnerabilidad humana. El tango habla 
+    de la conexión entre dos seres que, a través de la danza, se entregan 
+    en un abrazo lleno de emoción. Es música para los románticos, para aquellos 
+    que entienden que el amor tiene tanto de dolor como de belleza. 
+    En su ritmo seductor, el tango nos recuerda que, a veces, 
+    la belleza más profunda se encuentra en lo efímero.
+</p>
+<a href="https://www.youtube.com/watch?v=6yoLXINtBwE" target="_blank">
+    <button type="button">Reproducir</button>
+</a>
+</div>
+<div id="tango" class="genre">
+
+        <h1>Instrumentos claves para el Tango</h1>
+        <hr>
+
+        <div class="instrument">
+            <img src="JPG/bandoneon.jpg" alt="Bandoneón">
+            <h2>Bandoneón</h2>
+            <p>Instrumento esencial del tango, con un sonido melancólico y expresivo que define el género.</p>
+        </div>
+        <div class="instrument">
+            <img src="JPG/violin.jpg" alt="Violín">
+            <h2>Violín</h2>
+            <p>Utilizado para añadir dramatismo y emoción en las interpretaciones de tango.</p>
+        </div>
+        <div class="instrument">
+            <img src="JPG/piano.jpg" alt="Piano">
+            <h2>Piano</h2>
+            <p>Proporciona armonía y ritmo, siendo una base fundamental en las orquestas de tango.</p>
+        </div>
+        <div class="instrument">
+            <img src="JPG/contrabajo.jpg" alt="Contrabajo">
+            <h2>Contrabajo</h2>
+            <p>Aporta profundidad rítmica con sus líneas de bajo graves y marcadas.</p>
+        </div>
+        <div class="instrument">
+            <img src="JPG/guitarra.jpg" alt="Guitarra">
+            <h2>Guitarra</h2>
+            <p>Utilizada en las primeras formaciones de tango, dando ritmo y acompañamiento melódico.</p>
+        </div>
+</div>
+<div>
+    <section class="Siguenos">
+    <h1>Síguenos</h1>
+    <p>
+        Línea Telefónica: 1100-11111<br>
+        Dirección: Calle 15 sur #45-32<br>
+        Correo Electrónico: bondiacademy@school.co
+    </p>
+
+        <i class="fa-solid fa-users"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+
+    </section>
+</div>        
+
+
+<footer>
+    <p>&copy; 2025 Bon Dia Academia. Todos los derechos reservados.<br>Alexander Fonnegra Osorio</p> 
+</footer>
+
+</body>
+</html>
